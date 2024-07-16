@@ -1,0 +1,70 @@
+.loginPage {
+    background: url('../../Images/computer-repair.jpeg');
+    background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,10,0.5)),url('/images/computer-repair.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.loginForm {
+    background-color: rgba(1,32,93,0.6);
+    color: white;
+}
+
+ul li :hover {
+    background-color: gray;
+}
+
+.employee_image {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+label {
+    display:flex;
+    flex-direction: row;
+    width: 200px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    vertical-align: middle;
+}
+
+#butt {
+ display: flex;
+ align-items: center;
+}
+
+h4 {
+    color: rgb(9, 0, 56);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 100px;
+    height: 25px;
+    margin-top: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+    vertical-align: middle;
+    
+    }
+
+
+
+input.datein {
+    width: 100px;
+    height: 25px;
+    padding-left: 0%;
+    margin: 10px 10px 0px 0px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+vertical-align: middle;
+}
+
+
+#new {
+    height: 20px;
+}
